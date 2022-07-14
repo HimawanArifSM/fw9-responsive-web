@@ -35,4 +35,29 @@
     font-size: 18px;
     line-height: 25px;
     text-align: center;
+}.auth-intro{
+    background: url(./scr/images/Mask-Group-login.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.auth-form-wrapper{
+    padding-top: 7%;
+    padding-right: 7%;
+    padding-left: 7%;
+    padding-bottom: 7%;
+}
+.fw-input{
+    border: unset;
+    border-bottom: 1px solid gray;
+    border-radius: unset;
+}
+.fw-input:focus{
+    border-color: unset;
+    box-shadow: unset;
+}
+.fw-inp-icon{
+    background: unset;
+    border: unset;
+    border-bottom:1px solid gray;
+    border-radius: unset;
 }
