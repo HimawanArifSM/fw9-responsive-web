@@ -1,18 +1,4 @@
-.log1{
-    padding-left: 150px;
-    padding-top: 63px;
-    padding-right: 150px;
-    display: flex;
-    justify-content: space-between;
-}
-.zwallet{
-    font-family: 'Nunito Sans';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 29px;
-    line-height: 40px;
-    color: #6379F4;
-}
+
 .login{
     background: #6379F4;
     border: 2px solid #FFFFFF;
@@ -20,10 +6,10 @@
     border-radius: 12px;
     box-sizing: border-box;
     color: #FFFFFF;
-    width: 120px;
-    height: 48px;
+    min-width: 120px;
+    min-height: 50px;
     padding-left: 13px;
-    padding-top: 11px;
+    padding-top: 5px;
     font-family: 'Nunito Sans';
     font-style: normal;
     font-weight: 700;
@@ -38,10 +24,10 @@
     border-radius: 12px;
     box-sizing: border-box;
     color: #6379F4;
-    width: 120px;
-    height: 48px;
+    min-width: 120px;
+    min-height: 50px;
     padding-left: 16px;
-    padding-top: 11px;
+    padding-top: 5px;
     padding-right: 16px;
     font-family: 'Nunito Sans';
     font-style: normal;
@@ -49,17 +35,4 @@
     font-size: 18px;
     line-height: 25px;
     text-align: center;
-}
-.log2{
-    padding-left: 150px;
-    padding-top: 141px;
-    padding-right: 0px;
-    display: flex;
-}
-.text1{
-    position: absolute;
-    width: 475px;
-    height: 186px;
-    left: 150px;
-    top: 244px;
 }
