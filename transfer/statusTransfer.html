@@ -1,14 +1,14 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <title>Title</title>
+    <title>StatusSuccess</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS v5.2.0-beta1 -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"  integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="../style.css">
     <script src="https://unpkg.com/feather-icons"></script>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@700&display=swap');
@@ -16,20 +16,11 @@
   </head>
   <body class="min-vh-100 mw-100">
     <div style="background-color: #ebebeb;" class="row min-vh-100 mw-100">
-      <div class="d-flex justify-content-between" style="padding: 50px 50px 50px 80px;background-color: white;">
+      <div class="d-flex justify-content-between header-bg">
             <div>
-                <h1 style="color:#6379F4;font-family: 'Nunito Sans';
-                font-style: normal;
-                font-weight: 700;
-                font-size: 29px;
-                line-height: 40px;">Zwallet</h1>
+                <h1 class="header-zwallet">Zwallet</h1>
             </div>
-            <div class="d-flex align-item-center justify-content-between gap-3" style="padding: 5px 5px;font-family: 'Nunito Sans';
-            font-style: normal;
-            font-weight: 700;
-            font-size: 18px;
-            line-height: 31px;text-align: center;
-            color: #3A3D42;">
+            <div class="d-flex align-item-center justify-content-between gap-3 style-profile-main">
                 <div><img src="../scr/images/profile-pict.png"/></div>
                 <div class="text-center" style=>
                     <div>Robert Chandler</div>
@@ -42,11 +33,7 @@
       </div>
       <div class="row d-flex" style="padding: 50px 80px 50px 80px;">
         <div class="d-flex gap-4">
-        <div class="col-4 d-flex flex-column justify-content-between" style=" padding: 50px 0 50px 50px;border-radius: 10px;background-color: white;color: rgba(58, 61, 66, 0.8);;font-family: 'Nunito Sans';
-        font-style: normal;
-        font-weight: 700;
-        font-size: 18px;
-        line-height: 31px;">
+        <div class="col-4 d-flex flex-column justify-content-between sidebar">
             <div class="d-flex flex-column gap-5">
                 <a href="#">
                     <i data-feather="menu" style="color: gray;"></i>
@@ -73,46 +60,30 @@
             </div>
         </div>
         <div class="col-8">
-            <div class="row d-flex flex-col gap-5" style="background-color: white;border-radius: 10px;padding: 20px 20px;background: #FFFFFF;
-            box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
-            border-radius: 25px;">
+            <div class="row d-flex flex-col gap-5 bg-white">
                 <div class="text-center">
                     <img style="width:70px; margin-bottom: 40px;" src="../scr/images/success.png"/>
-                    <p style="font-family: 'Nunito Sans';
-                    font-style: normal;
-                    font-weight: 700;
-                    font-size: 18px;
-                    line-height: 25px;">Transfer Success</p>
+                    <p class="font-700">Transfer Success</p>
                 </div>
                 
-                <div class="d-flex flex-column justify-content-between" style="background: #FFFFFF;
-                box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
-                border-radius: 10px;">
+                <div class="d-flex flex-column justify-content-between bg-white-shadow">
                     <p>Amount</p>
                     <h3>Rp100.000</h3>
                 </div>
-                <div class="d-flex flex-column justify-content-between" style="background: #FFFFFF;
-                box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
-                border-radius: 10px;">
+                <div class="d-flex flex-column justify-content-between bg-white-shadow">
                     <p>Balance Left</p>
                     <h3>Rp20.000</h3>
                 </div>
-                <div class="d-flex flex-column justify-content-between" style="background: #FFFFFF;
-                box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
-                border-radius: 10px;">
+                <div class="d-flex flex-column justify-content-between bg-white-shadow">
                     <p>Date & Time</p>
                     <h3>May 11, 2020 - 12.20</h3>
                 </div>
-                <div class="d-flex flex-column justify-content-between" style="background: #FFFFFF;
-                box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
-                border-radius: 10px;">
+                <div class="d-flex flex-column justify-content-between bg-white-shadow">
                     <p>Notes</p>
                     <h3>For buying some socks</h3>
                 </div>
                 <p>Transfer to</p>
-                <div class="d-flex flex-row justify-content-between" style="background: #FFFFFF;
-                box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
-                border-radius: 10px;">
+                <div class="d-flex flex-row justify-content-between bg-white-shadow">
                     <div class="d-flex flex-row justify-content-between gap-3">
                         <img src="../scr/images/photo-samuel-shusi.png"/>
                         <div>
@@ -124,18 +95,12 @@
                 </div>
                 
                 <div class=" d-flex justify-content-end gap-3">
-                    <button class="btn btn-primary"  style="background: #d0d6f6;
-                    box-shadow: 0px 6px 75px rgba(100, 87, 87, 0.05);
-                    border-radius: 12px;"><i data-feather="share-2" style="color: black;"></i></button>
-                    <button class="btn btn-primary" style="background: #d0d6f6;
-                    box-shadow: 0px 6px 75px rgba(100, 87, 87, 0.05);
-                    border-radius: 12px; color: #6379F4;">
+                    <button class="btn btn-primary white-button"><i data-feather="share-2" style="color: black;"></i></button>
+                    <button class="btn btn-primary white-button">
                     <i data-feather="download" style="color: #6379F4;"></i>
                     Download PDF
                     </button>
-                    <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop" style="background: #6379F4;
-                    box-shadow: 0px 6px 75px rgba(100, 87, 87, 0.05);
-                    border-radius: 12px;">Back to Home</button>
+                    <button class="btn btn-primary blue-button" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Back to Home</button>
                 </div>
                 
             </div>
@@ -144,11 +109,7 @@
     </div>
     </div>
     <div class="row row mw-100">
-        <div class=" d-flex flex-row justify-content-between" style="border-radius:10px;background:#6379F4;padding: 50px 80px;color: white;font-family: 'Nunito Sans';
-        font-style: normal;
-        font-weight: 600;
-        font-size: 16px;
-        line-height: 28px;">
+        <div class=" d-flex flex-row justify-content-between zwallet-footer">
             <div><p5>2020 Zwallet. All right reserved.</p5></div>
         <div class="d-flex flex-row gap-5">
             <p5>+62 5637 8882 9901</p5>
