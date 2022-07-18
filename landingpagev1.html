@@ -5,40 +5,42 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="/style.css">
+    <script src="https://unpkg.com/feather-icons"></script>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@700&display=swap');
     </style>
 </head>
 <body>
-    <header style="background: url(./scr/images/MaskGroup1.png); background-repeat: no-repeat
-    ;background-position: top right;background-size: 50%; padding: 5% 10%;">
+    <header class="lp-header">
         <div style="display: flex;justify-content: space-between;">
-            <div style="font-family: 'Nunito Sans'; font-style: normal; font-weight: 700;   font-size: 29px;line-height: 40px;color: #6379F4;">
+            <div class="header-zwallet">
                 Zwallet
             </div>
             <div>
-                <button class="login">
+                <a href="/login.html">
+                <button class="btn blue-button">
                     Login
-                </button>
-                <button class="signup">
+                </button></a>
+                <a href="/register.html">
+                <button class="white-button">
                     Sign Up
-                </button>
+                </button></a>
             </div>
         </div>
-        <div style="display: flex;justify-content: space-between;">
+        <div class="lp-img-phone" style="display: flex;justify-content: space-between;">
             <div style="display: flex; justify-content: center;flex-direction: column;">
                 <h1 style="margin-bottom: 50px;">
                     <span style="color: black;font-family: 'Nunito Sans';font-style: normal;font-weight: 800;font-size: 60px;line-height: 93px;">Awesome App For Saving </span><span style="color: #6379F4;font-family: 'Nunito Sans';font-style: normal;font-weight: 800;font-size: 60px;line-height: 93px;">Time.</span>
                 </h1>
-                <p style="margin-bottom: 70px;">We bring you a mobile app for banking problems that
+                <p class="font-400">We bring you a mobile app for banking problems that
                     oftenly wasting much of your times.</p>
-                <div>
-                    <button class="login">Try It Free</button>
+                <div><a href="/register.html">
+                    <button class="blue-button">Try It Free</button></a>
                 </div>
             </div>
             <div>
-                <img src="./scr/images/png-phone.png"/>
+                <img  src="./scr/images/png-phone.png" alt="pict"/>
             </div>
         </div>
     </header>
@@ -49,19 +51,19 @@
         </div>
         <div style="display: flex; justify-content: center;">
             <div style="text-align: center;background-color: #ffff;padding: 5% 5%;;border-radius: 10px;margin-right: 5%;">
-                <img src="./scr/images/group-10.png"/>
+                <i data-feather="phone"></i>
                 <h2>24/7 Support</h2>
                 <p>We have 24/7 contact support so you can contact us whenever you want and we will respond it.</p>
             </div>
             <div style="text-align: center;background-color: #ffff;padding: 5% 5%;border-radius: 10px;margin-right: 5%;">
-                <img src="./scr/images/group-11.png"/>
+                <i data-feather="lock"></i>
                 <h2>Data Privacy</h2>
                 <p>We make sure your data is safe in our database and we will encrypt any data you submitted to us.</p>
             </div>
             <div style="text-align: center;background-color: #ffff;padding: 5% 5%;border-radius: 10px;">
-                <img src="./scr/images/group-12.png"/>
+                <i data-feather="download"></i>
                 <h2>Easy Download</h2>
-                <p>Zwallet is 100% totally free to use it’s now available on Google Play Store and App Store.</p>
+                <p>Zwallet is 100% totally free to use it's now available on Google Play Store and App Store.</p>
             </div>
         </div>
     </section>
@@ -71,12 +73,12 @@
             <p style="font-family:'Nunito Sans';">We have reached global level and have 100+brand partners around the globe.</p>
         </div>
         <div>
-            <img src="./scr/images/group-24.png"/>
+            <img src="./scr/images/group-24.png" alt="pict"/>
         </div>
     </section>
     <section style="background-color: #eeecff;display: flex; padding: 5% 15%;  justify-content: space-between;">
         <div style="margin-right: 10%;">
-            <img src="./scr/images/png-phone2.png"/>
+            <img src="./scr/images/png-phone2.png" alt="pict"/>
         </div>
         <div style="display: flex; justify-content: center;flex-direction: column;">
             <div style="text-align: center;margin-bottom: 9%;">
@@ -103,17 +105,17 @@
         </div>
         <div style="display: flex;justify-content: center;">
             <div style="align-items: center;margin-right: 5%;">
-                <img src="./scr/images/1.png"/>
+                <img src="./scr/images/1.png" alt="pict"/>
                 <h2>Sherina Chaw</h2>
                 <p>“I use this app since 2 years ago and this is the best app that I’ve ever use in my entire life”</p>
             </div>
             <div style="align-items: center;margin-right: 5%;">
-                <img src="./scr/images/2.png"/>
+                <img src="./scr/images/2.png" alt="pict"/>
                 <h2>Jessica Mera</h2>
                 <p>“I use Zwallet to manage all financial needs. It’s super easy to use and it’s 100% free app”</p>
             </div>
             <div style="align-items: center;">
-                <img src="./scr/images/Rectangle 25.png"/>
+                <img src="./scr/images/Rectangle 25.png" alt="pict"/>
                 <h2>Robert Chandler</h2>
                 <p>“Since I’m using this app, I’m not going to move to another similar app. Thank you Zwallet!”</p>
             </div>
@@ -131,5 +133,8 @@
             </div>
         </div>
     </section>
+    <script>
+        feather.replace()
+      </script>
 </body>
 </html>

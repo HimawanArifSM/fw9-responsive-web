@@ -1,3 +1,26 @@
+.lp-header{
+    background: url(./scr/images/MaskGroup1.png);
+    background-repeat: no-repeat
+    ;background-position: top right;
+    background-size: 50%; 
+    padding: 5% 10%;
+    }
+
+@media (max-width: 767.98px) { 
+    .lp-header{
+        background: none; 
+        background-repeat: none;
+        background-position: none;
+        background-size: 50px; 
+        padding: 5px 10px;
+        }
+
+    .lp-img-phone{
+        display: flex !important;
+        flex-direction: column !important;
+    }
+ }
+
 
 .blue-button{
     background: #6379F4;
@@ -157,3 +180,10 @@
     border-radius: 10px; 
     padding: 30px 30px;
 }
+
+@media (max-width: 575.98px) { 
+    .header-bg{
+        padding: 5px 5px 5px 8px;
+        background-color: white;
+    }
+ }
