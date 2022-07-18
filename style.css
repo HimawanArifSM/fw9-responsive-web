@@ -19,7 +19,14 @@
         display: flex !important;
         flex-direction: column !important;
     }
+    .pad-body{
+        padding: 5px 8px 5px 8px;
+    }
  }
+.pad-body{
+    padding: 50px 80px 50px 80px;
+}
+
 
 
 .blue-button{
